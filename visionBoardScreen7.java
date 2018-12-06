@@ -36,7 +36,7 @@ public class visionBoardScreen7 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vision_board_screen7);
 
-        mSelectedImagesContainer = (ViewGroup) findViewById(R.id.selected_photos_container);
+        mSelectedImagesContainer =(ViewGroup) findViewById(R.id.selected_photos_container);
         View getImages = findViewById(R.id.get_images);
         getImages.setOnClickListener(new View.OnClickListener() {
 
